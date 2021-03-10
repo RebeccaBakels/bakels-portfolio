@@ -26,7 +26,7 @@ function BakelsProjects() {
         <img className="projects-header" src="assets/projects.png" alt="square that says projects, check my github for more!"></img>
         <br/>
         <div className='button-group'>
-        <Card className={classes.root}>
+        <Card style={{backgroundColor: '#ff6859a6'}} className={classes.root}>
         <CardActionArea>
           <CardMedia
             className={classes.media}
@@ -54,7 +54,7 @@ function BakelsProjects() {
           </Button>
         </CardActions>
       </Card> 
-      <Card className={classes.root}>
+      <Card style={{backgroundColor: '#ff9659ad'}} className={classes.root}>
         <CardActionArea>
           <CardMedia
             className={classes.media}
@@ -66,7 +66,7 @@ function BakelsProjects() {
               To-Do Too!
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-            A To-Do app made in React, Firestore, Express, and Node to keep track of daily tasks. You can add, delete, and mark items on your list as complete. Each list is specific to the signed in user.           </Typography>
+            A To-Do app made in React, Firestore, Express, and Node to keep track of daily tasks. You can add, delete, and mark items on your list as complete. Each list is specific to the user.           </Typography>
           </CardContent>
         </CardActionArea>
         <CardActions>
@@ -81,7 +81,7 @@ function BakelsProjects() {
           </Button>
         </CardActions>
       </Card> 
-      <Card className={classes.root}>
+      <Card style={{backgroundColor: '#f9d95aa6'}} className={classes.root}>
         <CardActionArea>
           <CardMedia
             className={classes.media}
