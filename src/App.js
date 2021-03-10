@@ -17,6 +17,15 @@ function App() {
         <BakelsProjects/>
         <br/>
       </header>
+      <br/>
+      <br/>
+      <footer>
+        <img
+        style={{display: 'flex'}}
+        src="assets/thanks.png"
+        alt="Secret corgi sitting saying thank you"
+        ></img>
+      </footer>
     </div>
   );
 }

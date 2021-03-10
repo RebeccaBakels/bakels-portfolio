@@ -28,13 +28,13 @@ function BakelsProjects() {
         <br/>
         <br/>
         <br/>
-        <div className='button-group'>
-        <Card style={{backgroundColor: '#ff6859a6'}} className={classes.root}>
+        <div className='card-group'>
+        <Card style={{backgroundColor: '#ff6859a6', marginTop: '10px'}} className={classes.root}>
         <CardActionArea>
           <CardMedia
             className={classes.media}
             image="assets/sen_dev_duck.png"
-            title="Contemplative Reptile"
+            title="preview of senior dev duckie website"
             />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
@@ -57,12 +57,12 @@ function BakelsProjects() {
           </Button>
         </CardActions>
       </Card> 
-      <Card style={{backgroundColor: '#ff9659ad'}} className={classes.root}>
+      <Card style={{backgroundColor: '#ff9659ad', marginTop: '10px'}} className={classes.root}>
         <CardActionArea>
           <CardMedia
             className={classes.media}
             image="assets/to_do_too.png"
-            title="Contemplative Reptile"
+            title="preview of To Do Too website"
             />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
@@ -85,12 +85,12 @@ function BakelsProjects() {
           </Button>
         </CardActions>
       </Card> 
-      <Card style={{backgroundColor: '#f9d95aa6'}} className={classes.root}>
+      <Card style={{backgroundColor: '#f9d95aa6', marginTop: '10px'}} className={classes.root}>
         <CardActionArea>
           <CardMedia
             className={classes.media}
             image="assets/time_tracker.png"
-            title="Contemplative Reptile"
+            title="preview of time tracker website"
             />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">

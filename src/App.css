@@ -22,12 +22,14 @@
 }
 .profile-pic {
   width: 50vh;
-  height: auto;
-  border-radius: 30%;
 }
 .profile-bio {
   width: 100vh;
-  height: auto;
+}
+.card-group {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
 }
 .button-group {
   display: flex;
@@ -36,8 +38,6 @@
 }
 .projects-header {
   width: 80vh;
-  /* display: flex;
-  padding-left: 15vh; */
 }
 
 .MuiCardActions-root {
@@ -46,4 +46,47 @@
 
 .MuiCard-root:hover {
   filter: contrast(75%);
+}
+footer {
+height: 30vh;
+background-color: #ffe683;
+display: flex;
+}
+@media screen and (max-width: 400px) {
+  
+  .header-profile {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .card-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .button-group {
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-bio {
+    width: 55vh;
+  }
+  .projects-header {
+    width: 60vh;
+  }
+  .profile-pic {
+    width: 40vh;
+  }
+  .mobile-cards{
+    margin-top:  10px;
+  }
+  
+}
+@media screen and (max-width: 670px) {
+  .card-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
