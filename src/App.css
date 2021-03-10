@@ -35,7 +35,15 @@
   justify-content: space-evenly;
 }
 .projects-header {
-  width: 55vh;
-  display: flex;
-  padding-left: 6vh;
+  width: 80vh;
+  /* display: flex;
+  padding-left: 15vh; */
+}
+
+.MuiCardActions-root {
+  justify-content: space-between;
+}
+
+.MuiCard-root:hover {
+  filter: contrast(75%);
 }

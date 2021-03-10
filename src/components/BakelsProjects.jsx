@@ -23,7 +23,10 @@ function BakelsProjects() {
 
     return(
         <>
-        <img className="projects-header" src="assets/projects.png" alt="square that says projects, check my github for more!"></img>
+        <div >
+        <img className="projects-header" src="assets/long_projects.png" alt="square that says projects, check my github for more!"></img>
+        <br/>
+        <br/>
         <br/>
         <div className='button-group'>
         <Card style={{backgroundColor: '#ff6859a6'}} className={classes.root}>
@@ -32,7 +35,7 @@ function BakelsProjects() {
             className={classes.media}
             image="assets/sen_dev_duck.png"
             title="Contemplative Reptile"
-          />
+            />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
               Senior Dev Duckie
@@ -60,7 +63,7 @@ function BakelsProjects() {
             className={classes.media}
             image="assets/to_do_too.png"
             title="Contemplative Reptile"
-          />
+            />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
               To-Do Too!
@@ -69,7 +72,8 @@ function BakelsProjects() {
             A To-Do app made in React, Firestore, Express, and Node to keep track of daily tasks. You can add, delete, and mark items on your list as complete. Each list is specific to the user.           </Typography>
           </CardContent>
         </CardActionArea>
-        <CardActions>
+        <CardActions >
+        
           <Button size="small" color="primary" href="https://to-do-too-rb.web.app/">
             App Demo
           </Button>
@@ -87,7 +91,7 @@ function BakelsProjects() {
             className={classes.media}
             image="assets/time_tracker.png"
             title="Contemplative Reptile"
-          />
+            />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
               Time Tracker
@@ -108,6 +112,7 @@ function BakelsProjects() {
           </Button>
         </CardActions>
       </Card>
+        </div>
       </div>
       </>
       
