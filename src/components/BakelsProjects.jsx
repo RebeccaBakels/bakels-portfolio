@@ -124,7 +124,7 @@ function BakelsProjects() {
             </CardActions>
           </Card>
           <Card
-            style={{ backgroundColor: "#f9d95aa6", marginTop: "10px" }}
+            style={{ backgroundColor: "#f9b95aa6", marginTop: "10px" }}
             className={classes.root}
           >
             <CardActionArea>
@@ -166,6 +166,36 @@ function BakelsProjects() {
                 href="https://github.com/RebeccaBakels/time-tracker-api"
               >
                 API Repo
+              </Button>
+            </CardActions>
+          </Card>
+          <Card
+            style={{ backgroundColor: "#f9d95aa6", marginTop: "10px" }}
+            className={classes.root}
+          >
+            <CardActionArea>
+              <CardMedia
+                className={classes.media}
+                image="assets/splash_corgis.png"
+                title="preview of corgis in paradise game"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="h2">
+                  Corgis in ParadICE
+                </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                  Corgis in Paradise is a adorable game made in Unity 3D and written in C#. You are a corgi knight, exploring your apartment kingdom, to find all the hidden treasures AKA ice cubes!
+                </Typography>
+                <br/>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              <Button
+                size="small"
+                color="primary"
+                href="https://corgisinparadicegamev3.web.app/"
+              >
+                App Demo
               </Button>
             </CardActions>
           </Card>
