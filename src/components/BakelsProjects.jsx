@@ -186,7 +186,6 @@ function BakelsProjects() {
                 <Typography variant="body2" color="textSecondary" component="p">
                   Corgis in Paradise is a adorable game made in Unity 3D and written in C#. You are a corgi knight, exploring your apartment kingdom, to find all the hidden treasures AKA ice cubes!
                 </Typography>
-                <br/>
               </CardContent>
             </CardActionArea>
             <CardActions>
