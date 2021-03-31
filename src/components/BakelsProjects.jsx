@@ -45,6 +45,7 @@ function BakelsProjects() {
               <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
                   Senior Dev Duckie
+                  <p className="sub-title">Full-Stack</p>
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                   Born from the classic Rubber Duckie method in software
@@ -59,6 +60,8 @@ function BakelsProjects() {
                 size="small"
                 color="primary"
                 href="https://senior-dev-duckie.web.app/"
+                target="_blank"
+                rel="noreferrer"
               >
                 App Demo
               </Button>
@@ -66,6 +69,8 @@ function BakelsProjects() {
                 size="small"
                 color="primary"
                 href="https://github.com/RebeccaBakels/senior-dev-duckie"
+                target="_blank"
+                rel="noreferrer"
               >
                 Frontend Repo
               </Button>
@@ -73,6 +78,8 @@ function BakelsProjects() {
                 size="small"
                 color="primary"
                 href="https://github.com/RebeccaBakels/api-senior-dev-duckie"
+                target="_blank"
+                rel="noreferrer"
               >
                 API Repo
               </Button>
@@ -91,6 +98,7 @@ function BakelsProjects() {
               <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
                   To-Do Too!
+                  <p className="sub-title">Full-Stack</p>
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                   A To-Do app made in React, Firestore, Express, and Node to
@@ -104,6 +112,8 @@ function BakelsProjects() {
                 size="small"
                 color="primary"
                 href="https://to-do-too-rb.web.app/"
+                target="_blank"
+                rel="noreferrer"
               >
                 App Demo
               </Button>
@@ -111,6 +121,8 @@ function BakelsProjects() {
                 size="small"
                 color="primary"
                 href="https://github.com/RebeccaBakels/ToDo-Too"
+                target="_blank"
+                rel="noreferrer"
               >
                 Frontend Repo
               </Button>
@@ -118,6 +130,8 @@ function BakelsProjects() {
                 size="small"
                 color="primary"
                 href="https://github.com/RebeccaBakels/todo-too-api"
+                target="_blank"
+                rel="noreferrer"
               >
                 API Repo
               </Button>
@@ -136,6 +150,7 @@ function BakelsProjects() {
               <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
                   Time Tracker
+                  <p className="sub-title">Full-Stack</p>
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                   Time Tracker is an app that helps you keep track of the time
@@ -150,6 +165,8 @@ function BakelsProjects() {
                 size="small"
                 color="primary"
                 href="https://tracker-rb-web.web.app/"
+                target="_blank"
+                rel="noreferrer"
               >
                 App Demo
               </Button>
@@ -157,6 +174,8 @@ function BakelsProjects() {
                 size="small"
                 color="primary"
                 href="https://github.com/RebeccaBakels/time-tracker-web"
+                target="_blank"
+                rel="noreferrer"
               >
                 Frontend Repo
               </Button>
@@ -164,6 +183,8 @@ function BakelsProjects() {
                 size="small"
                 color="primary"
                 href="https://github.com/RebeccaBakels/time-tracker-api"
+                target="_blank"
+                rel="noreferrer"
               >
                 API Repo
               </Button>
@@ -182,6 +203,7 @@ function BakelsProjects() {
               <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
                   Corgis in ParadICE
+                  <p className="sub-title">Unity</p>
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                   Corgis in Paradise is a adorable game made in Unity 3D and written in C#. You are a corgi knight, exploring your apartment kingdom, to find all the hidden treasures AKA ice cubes!
@@ -193,8 +215,51 @@ function BakelsProjects() {
                 size="small"
                 color="primary"
                 href="https://corgisinparadicegamev3.web.app/"
+                target="_blank"
+                rel="noreferrer"
               >
                 App Demo
+              </Button>
+            </CardActions>
+          </Card>
+          <Card
+            style={{ backgroundColor: "#ff6859a6", marginTop: "10px" }}
+            className={classes.root}
+          >
+            <CardActionArea>
+              <CardMedia
+                className={classes.media}
+                image="assets/beth.png"
+                title="preview of corgis in paradise game"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="h2">
+                Beth Wagmeister 
+                  <p className="sub-title">Frontend</p>
+                </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                  Website built in a day for Beth Wagmeister, ASL interpreter and advocate for the deaf and hard of hearing, with Developer Michelle Bakels as part of a challenge to build 10 programs in 10 days.  
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              <Button
+                size="small"
+                color="primary"
+                href="https://coding-with-sisterhood.web.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                App Demo
+              </Button>
+              <Button
+                size="small"
+                color="primary"
+                href="https://github.com/michellebakels/coding-with-sisterhood"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Frontend Repo
               </Button>
             </CardActions>
           </Card>

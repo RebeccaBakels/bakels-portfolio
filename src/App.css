@@ -40,6 +40,12 @@ footer {
   background-color: #ffe683;
   display: flex;
 }
+.sub-title {
+  font-size: 3vh;
+  margin-top: 0;
+  margin-bottom: 1vh;
+  font-style: italic;
+}
 @media screen and (max-width: 500px) {
   .header-profile {
     flex-direction: column;
